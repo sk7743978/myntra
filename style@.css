@@ -1,0 +1,270 @@
+.container{
+    height: 60px;
+    width: 100%;
+     display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.logo{
+    height:50px;
+    width:50px;
+}
+input{
+    height: 30px;
+    width: 280px;
+    border: 0.5px solid black;
+    border-radius: 30px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/11741/11741045.png");
+    background-position: 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+img{
+    margin-right: px;
+}
+a{
+    font-size: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: arial;
+ 
+}
+p{
+    height: 400px;
+    border:0px solid black;
+    margin-left: 30px;
+    margin-right:30px ;
+    background-image: url("https://blog.myntra.com/wp-content/uploads/2020/12/Myntra_End_of_Reason_Sale_Banner_1.jpg");
+    background-size: cover;
+}
+h2{
+      height: 350px;
+    width:1100px;
+    border:0px solid black;
+    margin-left: 0%;
+    margin-right: 0% ;
+    background-image: url("screenshot.png");
+    background-size: cover;
+    display: inline-block;
+    
+}
+.second{
+     height: 350px;
+    width:370px;
+    border:0px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb2lBUzxwUv3Eu-jD6fPRT66pyyDVOJG5awA&s");
+    background-size:cover ;
+}
+div{
+     height: 370px;
+    width:270px;
+    border:1px solid transparent;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    background-size: cover;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-family: arial;
+
+}
+img{
+     height: 370px;
+    width:270px;
+}
+h3{
+   
+    font-family: arial;
+
+}
+footer{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.one{
+    font-size: medium;
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+img:hover{
+    transform: scale(1.01);
+}
+h1{
+    color: rgb(165, 87, 239);
+}
+.footer{
+    display: flex;
+    gap:170px;
+    display:inline-flex;
+    height: 100px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.one:hover{
+    color: rgb(130, 5, 247);
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    
+}
+h4{
+    font-family: arial;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    input {
+        width: 220px;
+    }
+
+    p {
+        height: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h2 {
+        width: 70%;
+        height: 300px;
+    }
+
+    .second {
+        width: 25%;
+        height: 300px;
+    }
+
+    div {
+        width: 230px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    div img {
+        width: 230px;
+        height: auto;
+    }
+
+    .footer {
+        gap: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container .one {
+        font-size: 11px;
+    }
+
+    input {
+        width: 85%;
+        height: 30px;
+        order: 10;
+    }
+
+    p {
+        height: 180px;
+        margin: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h2,
+    .second {
+        width: 95%;
+        height: 180px;
+        margin: 10px auto;
+        display: block;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    div {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    div img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    div h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 1.6;
+        padding: 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    h4 {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
